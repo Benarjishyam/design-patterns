@@ -12,6 +12,7 @@ Think of ordering a custom meal on **Swiggy** or **Subway:**
 Instead of the restaurant staff asking you all 15 questions in a single rigid line, you build your sandwich step-by-step. If you don't want jalapenos, you simply skip that step!
 ## Phase 2: Problems It Solves
 **1. Solves the "Telescoping Constructor" Anti-Pattern**
+
 Without Builder, if an object has 8 fields (some mandatory, some optional), you end up writing a nightmare of overloaded constructors:
 
 ```java
@@ -26,6 +27,7 @@ User user = new User("Rahul", "rahul@gmail.com", null, 25, null); // Dirty and p
 ```
 
 **2. Avoids Inconsistent State via Setters & Preserves Immutability**
+
 Using empty constructors + setters (**user.setPhone(...)**) makes the object **mutable** and leaves it in an **inconsistent state** halfway through initialization. The Builder Pattern produces **fully immutable objects**.
 
 ## Phase 3: Complete Java Implementation (MakeMyTrip Flight Booking Search - INR Context)
