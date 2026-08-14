@@ -1,0 +1,28 @@
+----------------- VENDING MACHINE MENU -----------------
+Code: A1 | Product: Lays Magic Masala | Price: ₹20 | Available: 5
+Code: A2 | Product: Coca-Cola 300ml | Price: ₹40 | Available: 2
+Code: B1 | Product: Dairy Milk Silk | Price: ₹10 | Available: 10
+Code: B2 | Product: Bisleri Water 1L | Price: ₹15 | Available: 0
+--------------------------------------------------------
+
+>>> SCENARIO 1: Buy Coca-Cola (₹40) using ₹50 Note (Change returned)
+Inserted: ₹50 | Current Balance: ₹50
+✅ Product SELECTED: Coca-Cola 300ml (Price: ₹40)
+🎉 DISPENSED ITEM: Coca-Cola 300ml dropped to tray.
+💵 DISPENSED CHANGE: ₹10 returned in coin tray.
+
+>>> SCENARIO 2: Insert money and press REFUND / CANCEL
+Inserted: ₹20 | Current Balance: ₹20
+🔄 REFUNDING FULL BALANCE: ₹20 returned.
+
+>>> SCENARIO 3: Try buying Lays (₹20) with Insufficient Funds (₹10)
+Inserted: ₹10 | Current Balance: ₹10
+❌ ERROR: Insufficient balance for Lays Magic Masala. Price: ₹20 | Inserted: ₹10 | Needs ₹10 more.
+Inserted: ₹10 | Total Balance: ₹20
+✅ Product SELECTED: Lays Magic Masala (Price: ₹20)
+🎉 DISPENSED ITEM: Lays Magic Masala dropped to tray.
+
+>>> SCENARIO 4: Try buying Out-of-Stock Item (Bisleri Water)
+Inserted: ₹20 | Current Balance: ₹20
+❌ ERROR: Product Bisleri Water 1L is OUT OF STOCK!
+🔄 REFUNDING FULL BALANCE: ₹20 returned.
