@@ -45,6 +45,7 @@ Instead of creating hundreds of subclasses, you create **Wrappers (Decorators)**
 ```
 **When calculating cost:**
 👉 CheeseDecorator calls **wrappedPizza.getCost() + 50**
+
 👉 MushroomDecorator calls **wrappedPizza.getCost() + 40**
 
 # Phase 3: Complete Java Implementation (Indian Rupee / INR Context)
