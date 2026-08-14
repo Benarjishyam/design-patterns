@@ -43,9 +43,9 @@ public void pressPowerButton() {
 ```
 
 ### Core Components of the Pattern
-Context (VendingMachine / Smartphone): The primary object users interact with. Maintains a reference to the currentState.
-State Interface (VendingMachineState): Defines the contract for all supported actions across states.
-Concrete States (IdleState, HasMoneyState, DispenseState): Implement state-specific behaviors and drive state transitions.
+1. Context (VendingMachine / Smartphone): The primary object users interact with. Maintains a reference to the currentState.
+2. State Interface (VendingMachineState): Defines the contract for all supported actions across states.
+3. Concrete States (IdleState, HasMoneyState, DispenseState): Implement state-specific behaviors and drive state transitions.
 
 ## 2. Vending Machine System Design (UML Architecture)
 Graphical UML Diagram
