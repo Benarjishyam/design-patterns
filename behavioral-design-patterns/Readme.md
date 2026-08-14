@@ -94,7 +94,7 @@ Graphical UML Diagram
   ┌─────────────────────────────┐   ┌───────────────────────────┐
   │          Inventory          │   │      <<enumeration>>      │
   ├─────────────────────────────┤   │           Coin            │
-  │ - shelves: Map<String, ...> │   ├───────────────────────────┤
+  │ - shelves: Map<String,ItemShelf│├───────────────────────────┤
   ├─────────────────────────────┤   │ RE_1, RS_2, RS_5, RS_10,  │
   │ + addItem(): void           │   │ RS_20, RS_50, RS_100...   │
   │ + getItemShelf(): ItemShelf │   ├───────────────────────────┤
