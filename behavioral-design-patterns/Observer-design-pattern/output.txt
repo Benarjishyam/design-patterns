@@ -1,0 +1,10 @@
+📢 [SYSTEM EVENT] Product 'iPhone 15 (128GB)' state changed! Triggering observers...
+📧 EMAIL SENT to [rahul@gmail.com]: iPhone 15 (128GB) update! New Price: ₹59999 | Stock Status: IN STOCK
+📱 SMS SENT to [+91-9876543210]: iPhone 15 (128GB) is now ₹59999! Hurry, buy now.
+🔔 APP PUSH NOTIFICATION for User [user_id_402]: iPhone 15 (128GB) price updated to ₹59999
+
+>>> User 2 unsubscribes from SMS notifications.
+
+📢 [SYSTEM EVENT] Product 'iPhone 15 (128GB)' state changed! Triggering observers...
+📧 EMAIL SENT to [rahul@gmail.com]: iPhone 15 (128GB) update! New Price: ₹54999 | Stock Status: IN STOCK
+🔔 APP PUSH NOTIFICATION for User [user_id_402]: iPhone 15 (128GB) price updated to ₹54999
